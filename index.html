@@ -1,46 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>My website</title>
-</head>
-<body>
-    <h1 id="heading"Welcome to my website</h1>
+    <title>Happy Birthday!</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            background-color: lightblue;
+            padding: 20px;
+            }
+            h1{
+                font-size: 30px;
+            }
+            #welcome {
+    text-align: center;
+}
+#mainPage {
+    display: none;
+}
+            h2{
+                font-size: 20px;
+                line-height: 10px;
+            }
+            button {
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+img {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px gray;
+}    
     
-    <button onclick="document.getElementById('heading').innerHTML='Welcome, Nessie! 🎉'">
-    Change Heading
-</button>
+     img:hover {
+    transform: scale(1.03);
+}
 
-    <p>Hi! I'm Nessie, and I'm learning coding.</p>
-    <h2>About me </h2>
-    <p>i love learning new things and creating websites.</p>
-    <button>click me </button>
-    <h2>My hobbies</h2>
-    <ul>
-        <li>coding</li>
-        <li>learning new things</li>
-        <li>listening to music 🎵🎶</li>
-        <h2>My favorite website</h2>
-        </ul>
-        <a href="https://google.com">visit google</a>
-        <h2>My Favorite Picture</h2>
-       <img src="Ai.png"width="350px" alt="A picture of me">
+    </style>
+</head>
+    <body>
+        <div id="welcome">
+    <h1>🎉 Happy Birthday ojoneh! 🎂</h1>
+    <p>I have a little surprise for you... 💙</p>
+    <button onclick="showBirthday()">Click Here 💕</button>
+</div>
 
-<button onclick="document.getElementById('message').innerHTML='You clicked the button! 🎉'">
-    Click Me
-</button>
+<div id="mainPage">
+    
 
-<p id="message"></p>
-<button onclick="document.body.style.backgroundColor='pink'">
-    Change Background
-    <button onclick="document.body.style.backgroundColor='white'">
-    Reset Background
-    <button onclick="document.getElementById('message').innerHTML='You did it! 🎉'; document.body.style.backgroundColor='lightblue'">
-    Click Me
-</button>
-</button>
-</button>
-    </ul>
+    <h1>🎂 Happy Birthday! 🎉</h1>
+    <img src="birthday.png" alt="Birthday celebration">
+
+    <h2>To My Amazing Friend 💕</h2>
+
+    <p><em>
+        Today is all about celebrating you!
+        I hope your birthday is filled with happiness,
+        laughter and beautiful memories💕.</em></p>
+        <p>
+        you own a special place in my tiny hear you are more than a friend thank you for all you do i appreciate it from my heart ❤️
+    </p>
+    <p><em>
+    Happy Birthday to someone truly special! 💕
+    I’m so grateful to have you as my friend.
+    May this new year of your life bring you
+    happiness, success, laughter and beautiful memories. 🥳🎂</em>
+</p>
+<h2>🎁 A Little Surprise For You</h2>
+
+<p>
+    Click below when you're ready! 👀💕
+</p>
+<a href="hbvideo.mp4" target="_blank">
+    🎥 Watch Your Birthday Video
+</a>
+
+<p id="surprise"></p>
+<h2>💙 Our Friendship</h2>
+
+<p><em>
+    From random conversations to funny moments,
+    I'm grateful for all the memories we've made.
+    Here's to creating even more! 🥳✨</em>
+</p>
+<h2>✨ My Wishes For You</h2>
+
+<ul>
+    <li>More happiness 😊
+    <li>More success 🚀</li>
+    <li>Good health 💙</li>
+    <li>More beautiful memories 🎉</li>
+    <li>Everything you've been hoping for ✨</li>
+</ul>
+<h2>💌 A Message For You</h2>
+
+<p><em>
+    I just want you to know that I appreciate
+    having you as a friend. Keep being yourself,
+    keep chasing your goals, and never stop smiling.
+    Happy Birthday once again! 🎂🎉💙</em>
+</p>
+
+        "🎉 Happy Birthday ojoneh! I wish you more happiness, success, good health, and beautiful memories. Enjoy your special day! 💙🥳"
+    
+</div>
+<script>
+function showBirthday() {
+    document.getElementById("welcome").style.display = "none";
+    document.getElementById("mainPage").style.display = "block";
+}
+</script>
 </body>
+<hr>
+
+<p>
+    Made with 💙 by Nessie
+</p>
 </html>
 
